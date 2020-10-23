@@ -1,0 +1,22 @@
+23.10.2020 19:37:23.457 [main] {DEBUG}  com.sanchoo.Main - Program start
+23.10.2020 19:37:23.524 [main] {INFO }  com.sanchoo.Car - creating car e0129911-5ebc-4348-9497-bfe2a3b7c827
+23.10.2020 19:37:23.527 [main] {INFO }  com.sanchoo.Car - created car e0129911-5ebc-4348-9497-bfe2a3b7c827
+23.10.2020 19:37:23.527 [main] {INFO }  com.sanchoo.Car - creating car 5a51ac1b-b2fa-4551-9bf2-fcb16a4a77f3
+23.10.2020 19:37:23.527 [main] {INFO }  com.sanchoo.Car - created car 5a51ac1b-b2fa-4551-9bf2-fcb16a4a77f3
+23.10.2020 19:37:23.528 [main] {INFO }  c.sanchoo.CarTesting - return CarTesting instance
+23.10.2020 19:37:23.528 [main] {INFO }  c.sanchoo.CarTesting - testing power equal to 523 of the car e0129911-5ebc-4348-9497-bfe2a3b7c827
+23.10.2020 19:37:23.528 [main] {INFO }  c.sanchoo.CarTesting - power of the car e0129911-5ebc-4348-9497-bfe2a3b7c827 is more than 500
+23.10.2020 19:37:23.528 [main] {INFO }  c.sanchoo.CarTesting - testing power equal to 323 of the car 5a51ac1b-b2fa-4551-9bf2-fcb16a4a77f3
+23.10.2020 19:37:23.528 [main] {INFO }  c.sanchoo.CarTesting - power of the car 5a51ac1b-b2fa-4551-9bf2-fcb16a4a77f3 is less than 500
+23.10.2020 19:37:23.528 [main] {INFO }  c.sanchoo.CarTesting - reading setting from the file /not/exist
+23.10.2020 19:37:23.531 [main] {ERROR}  c.sanchoo.CarTesting - an error occurred
+java.io.FileNotFoundException: \not\exist (Системе не удается найти указанный путь)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:212)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:154)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.sanchoo.CarTesting.readSettings(CarTesting.java:35)
+	at com.sanchoo.Main.main(Main.java:16)
+23.10.2020 19:37:23.532 [main] {INFO }  c.sanchoo.CarTesting - settings from the file /not/exist could not be read
+23.10.2020 19:37:23.532 [main] {DEBUG}  com.sanchoo.Main - Program finish
